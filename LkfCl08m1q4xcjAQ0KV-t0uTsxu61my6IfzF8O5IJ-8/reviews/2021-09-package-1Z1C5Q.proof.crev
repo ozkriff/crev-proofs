@@ -1,0 +1,27 @@
+----- BEGIN CREV PROOF -----
+kind: package review
+version: -1
+date: "2021-09-22T12:38:10.519123452+03:00"
+from:
+  id-type: crev
+  id: LkfCl08m1q4xcjAQ0KV-t0uTsxu61my6IfzF8O5IJ-8
+  url: "https://github.com/ozkriff/crev-proofs"
+package:
+  source: "https://crates.io"
+  name: miniquad
+  version: 0.3.0-alpha.37
+  revision: ab4deb7a07c83d3a0937e79815cd8c9d78d7bafe
+  digest: ln4CaeRbqS7Zo0DvdgH-fSzeVoQsWkQe4dSLVMHzbxg
+review:
+  thoroughness: low
+  understanding: low
+  rating: positive
+alternatives:
+  - source: "https://crates.io"
+    name: sdl2
+comment: |-
+  Great minimalistic library for its purpose. Though atm contains a couple of unsafe blocks in its executor that could lead to UB if used from multiple threads.
+----- SIGN CREV PROOF -----
+5vdI9jvaOEe_jhRwMi54EXfbQuC6TxXWyVYvj5vuJG9IHJqy1Qu0f_Wg2oR9jAkzLfRZA8b_2Q9BGLBEE7LIBQ
+----- END CREV PROOF -----
+
